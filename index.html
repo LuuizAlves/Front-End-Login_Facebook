@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Facebook</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="center">
+                <div class="logo">
+                    <h2> facebook </h2>
+                </div>
+
+                <form method="POST" class="form-login">
+                    <div class="form-element">
+                        <p>E-mail ou telefone:</p>
+                        <input type="email">
+                    </div>
+
+                    <div class="form-element">
+                        <p>Senha:</p>
+                        <input type="password">
+                        <!--<p class="forget-password">Esqueceu sua senha?</p>-->
+                    </div>
+
+                    <div class="form-element">
+                        <input type="submit" name="acao" value="Entrar">
+                    </div>
+                </form>
+                <div class="clear"></div>
+            </div>
+        </header>
+
+        <section class="main">
+            <div class="center">
+                <div class="img-networking">
+                    <p>
+                        O Facebook ajuda você a se conectar e <br>
+                        compartilhar com as pessoas que fazem parte <br>
+                        da sua vida.
+                    </p>
+                    <img src="images/fb-networking.png" alt="Facebook">
+                </div>
+
+                <div class="create-account">
+                    <h2>Abra sua conta</h2>
+                    <h3>É rápido e fácil</h3>
+
+                    <form class="form-create-account">
+                        <div class="w50">
+                            <input type="text" placeholder="Nome">
+                        </div>
+
+                        <div class="w50">
+                            <input type="text" placeholder="Sobrenome">
+                        </div>
+
+                        <div class="w100">
+                            <input type="email" placeholder="Email">
+                        </div>
+
+                        <div class="w100">
+                            <input type="password" placeholder="Senha">
+                        </div>
+
+                        <div class="w100">
+                            <h2>Data de nacimento</h2>
+                            <select name="nascimento-dia" class="nascimento">
+                                <option value="24">24</option>
+                            </select>
+                            <select name="nascimento" class="nascimento">
+                                <option value="0">Abril</option>
+                            </select>
+                            <select name="nascimento" class="nascimento">
+                                <option value="0">1999</option>
+                            </select>
+                        </div>
+
+                        <div class="w100">
+                            <h2>Gênero</h2>
+                            <div class="input-radio">
+                                <input type="radio" value="masculino">
+                                <h2>Masculino</h2>
+                            </div>
+
+                            <div class="input-radio">
+                                <input type="radio" value="feminino">
+                                <h2>Feminino</h2>
+                            </div>
+
+                            <div class="input-radio">
+                                <input type="radio" value="Personalizado">
+                                <h2>Personalizado</h2>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="w100">
+                            <input type="submit" value="Cadastre-se">
+                        </div>
+
+                        <div class="clear"></div>
+                    </form>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+    </body>
+</html>
