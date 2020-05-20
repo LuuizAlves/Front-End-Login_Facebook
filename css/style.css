@@ -151,3 +151,19 @@ section.main{
     width: auto !important;
     display: inline-block;
 }
+.linguas{
+    padding: 30px 0;
+}
+.linguas .center{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.linguas a{
+    padding: 15px;
+    font-size: 12px;
+    color: #365899;
+    text-decoration: none;
+}
+.linguas .selected-lingua{
+    color: #737373;
+}
